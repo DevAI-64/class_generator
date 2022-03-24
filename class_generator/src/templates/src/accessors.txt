@@ -1,0 +1,18 @@
+
+    @property
+    def {attribute_name}(self) -> {attribute_type}:
+        """Get attribute {attribute_name}.
+
+        Returns:
+            {attribute_type}: The attribute {attribute_name}.
+        """
+        return self._{attribute_name}
+
+    @{attribute_name}.setter
+    def {attribute_name}(self, {attribute_name}) -> None:
+        """Set attribute {attribute_name}.
+
+        Args:
+            {attribute_name} ({attribute_type}): The new value for {attribute_name}.
+        """
+        self._{attribute_name} = {attribute_name}

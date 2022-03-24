@@ -1,0 +1,14 @@
+
+    def test_{method_name}(self) -> None:
+        """Test the method {method_name}."""
+        {class_file} = {class_name}()
+
+        # TODO Calculate the expected...
+        # result_to_expected: ... = ...
+        # result_{class_file}: ... = {class_file}.{method_name}(
+        #     {params}
+        # )
+        # self.assertEqual(
+        #     result_to_expected,
+        #     result_{class_file}
+        # )

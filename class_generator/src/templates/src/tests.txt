@@ -1,0 +1,11 @@
+"""This module contains the tests for class {class_name}."""
+
+import unittest
+from typing import Any
+
+from class_generator.gen_files.{file_name} import {class_name}
+
+
+class Test{class_name}(unittest.TestCase):
+    """This class for testing the class {class_name}."""
+{methods_for_tests}

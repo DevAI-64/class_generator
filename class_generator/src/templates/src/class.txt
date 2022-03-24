@@ -1,0 +1,20 @@
+"""This module contains the definition of class {class_name}."""
+
+from typing import Any
+
+
+class {class_name}:
+    """Here docstring for class: To explain..."""
+
+    def __init__(
+        self{attributes_params}
+    ) -> None:
+        """Initialize the class.
+
+        Args:
+{attributes_docstring}
+
+        Attributes:
+{attributes_docstring}
+        """
+{attributes_init}

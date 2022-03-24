@@ -1,0 +1,11 @@
+
+    def {method_name}(
+        self,
+        {method_params}
+    ) -> {return_type}:
+        """Explain this method...
+
+        Args:
+            {params_docstring}{returns_string}
+        """
+        # TODO Dev this method...
