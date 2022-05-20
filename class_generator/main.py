@@ -1,7 +1,6 @@
 """This is an exemple for using librairie."""
 
 import configparser as cfp
-import time
 import os
 
 from pydash import get  # type: ignore
@@ -24,4 +23,4 @@ if __name__ == "__main__":
             )
     except Exception as err:
         print(f"ERROR: {err}")
-    time.sleep(5)
+    input("Press Enter for quit...")
